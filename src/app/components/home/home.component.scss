@@ -1,0 +1,25 @@
+.main-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+span {
+  font-size: 20px;
+  color: #000;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 72px;
+  color: #000;
+  font-weight: 900;
+}
+
+@media (min-width: 1080px) {
+  .main-section {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
